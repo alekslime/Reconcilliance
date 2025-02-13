@@ -41,7 +41,7 @@ button {
   height: 540.697px;
   top: 0;
   left: 701px;
-  background: url(./assets/images/0ff86d4b-d6e1-423c-a6d1-83d7cdb014e3.png)
+  background: url(assets\GIFs\Pak.gif)
     no-repeat center;
   background-size: cover;
   z-index: 17;
@@ -67,7 +67,7 @@ button {
   position: relative;
   width: 42px;
   height: 42px;
-  background: url(./assets/images/4a1bdd5e-58c0-4329-b82e-01000b8687f3.png)
+  background: url(assets\GIFs\Pak.gif)
     no-repeat center;
   background-size: cover;
   z-index: 35;
@@ -79,13 +79,14 @@ button {
   height: 42px;
   top: 175.5px;
   left: 517px;
-  background: url(./assets/images/c7fd459b-3982-44b6-9b28-e61c33b7d037.png)
+  background: url(assets\GIFs\Pak.gif)
     no-repeat center;
   background-size: cover;
   z-index: 2;
   overflow: hidden;
 }
 .hey {
+      /* HEY! */
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -104,6 +105,7 @@ button {
   z-index: 33;
   text-shadow: 12px 8px 0 #1e3445;
   -webkit-text-stroke: 3.141px #1e3445;
+
 }
 .deeply-in-my-heart {
   display: flex;
@@ -297,4 +299,4 @@ button {
   top: 0;
   left: 342.935px;
   background: url(./assets/images/db63896d-9486-4bfd-a1b1-0adf2c1ee5bf.png)
-    no-repeat center;
+    no-repeat center;}
