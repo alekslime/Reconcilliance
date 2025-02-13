@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEW Universe</title>
+    <!-- Import fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Single+Day&display=swap" rel="stylesheet">
+    <style>
+        /* Base styles */
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-color: #FFF0F5; /* Light pink background */
+            background-image: url('hearts-falling.gif'); /* Vertical falling hearts GIF */
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* HEW! Heading */
+        .hew-heading {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 96px;
+            color: transparent;
+            -webkit-text-stroke: 3.14px #1E3445;
+            text-shadow: 12px 8px 0 #1E3445;
+            letter-spacing: -3.5%;
+            margin: 20px 0 16px 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Decorative right-side GIF */
+        .hew-heading + img {
+            position: absolute;
+            right: -50px;
+            top: 50px;
+            transform: rotate(-14deg);
+            filter: drop-shadow(0 17px 4px rgba(0,0,0,0.25));
+            z-index: 1;
+        }
+
+        /* "You seem deeply..." text */
+        .subheading {
+            font-family: 'Silkscreen', sans-serif;
+            font-size: 64px;
+            color: #1E3445;
+            letter-spacing: 0.5px;
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        /* Pixelated text container */
+        .pixel-container {
+            background: linear-gradient(to bottom, 
+                #FFF0F5 50%, 
+                transparent 50%
+            );
+            border: 3px solid #1E3445;
+            padding: 30px;
+            margin: 20px;
+            position: relative;
+            filter: drop-shadow(8px 10px 1px #FEB8FF);
+        }
+
+        .pixel-container p {
+            font-family: 'Single Day', cursive;
+            font-size: 58px;
+            color: #1E3445;
+            line-height: 120%;
+            letter-spacing: -2%;
+            margin: 0;
+        }
+
+        /* Gluck To Open button */
+        .gluck-button {
+            position: absolute;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+        }
+
+        /* Locked chest button */
+        .chest-button {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Content -->
+    <h1 class="hew-heading">HEW!</h1>
+    <img src="decorative-right.gif" alt="decorative animation" class="side-gif">
+
+    <p class="subheading">YOU SEEM TO BE DEEPLY<br>IN MY HEART.</p>
+
+    <div class="pixel-container">
+        <p>This miniature universe was created for memories, the joy we share, and all the moments that define us. I hope this brings joy to you whether you're far or near; just like how you always brought joy to me. So, here is what I want you to do: open the box, flip through the pages, and never forget that you have a special place in my</p>
+    </div>
+
+    <!-- Interactive Elements -->
+    <a href="next-page.html" class="gluck-button">
+        <img src="gluck-button.gif" alt="Gluck To Open" style="filter: drop-shadow(0 17px 4px rgba(0,0,0,0.25));">
+    </a>
+
+    <a href="unlock-page.html" class="chest-button">
+        <img src="locked-chest.png" alt="Open the box">
+    </a>
+</body>
+</html>
